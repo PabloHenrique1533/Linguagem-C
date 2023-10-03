@@ -1,0 +1,21 @@
+Compiling project changes...
+--------
+- Project Filename: C:\Users\DATEN\Documents\Preços.dev
+- Compiler Name: TDM-GCC 4.9.2 64-bit Release
+
+Building makefile...
+--------
+- Filename: C:\Users\DATEN\Documents\Makefile.win
+
+Processing makefile...
+--------
+- Makefile Processor: C:\Program Files (x86)\Dev-Cpp\MinGW64\bin\mingw32-make.exe
+- Command: mingw32-make.exe -f "C:\Users\DATEN\Documents\Makefile.win" all
+
+gcc.exe -D__DEBUG__ ../Desktop/Linguagem-C/main(inflacao).o -o Preços.exe -L"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib" -L"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/lib" -static-libgcc -g3
+
+Compilation results...
+--------
+- Errors: 0
+- Warnings: 0
+- Compilation Time: 0,31s
