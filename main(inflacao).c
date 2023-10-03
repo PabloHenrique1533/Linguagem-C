@@ -10,7 +10,7 @@ int main(int argc, char *argv[]) {
 	float preco;
 	
 	//pedir os numeros 
-	printf("Digite o preco do produto");
+	printf("Digite o preco do produto: \n");
 	scanf ("%f", &preco);
 	
 	//if e else
