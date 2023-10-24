@@ -6,7 +6,8 @@
 
 int main(int argc, char *argv[]) {
  
-	int v1, v2, resultado, opcao, operacao;
+	float v1, v2, resultado;
+	int opcao, operacao;
 	
 	opcao =0;
 	while(opcao==0){
@@ -17,9 +18,9 @@ int main(int argc, char *argv[]) {
 		
 		//Pedindo os Numeros.	
 			printf("Digite Um Numero: \n");
-			scanf("%d", &v1);
+			scanf("%f", &v1);
 			printf("Digite Segundo Numero: \n");
-			scanf("%d", &v2);
+			scanf("%f", &v2);
 			
 		//chamando a função.	
 		switch (operacao){	
@@ -40,7 +41,7 @@ int main(int argc, char *argv[]) {
 			resultado = divisao (v1, v2);
 		break;
 }
-		printf("O Resultado e: %d\n", resultado);
+		printf("O Resultado e: %.2f\n", resultado);
 				
 		printf("Deseja Encerra A Calculadora? \n Sim(1) \n Nao(0)");
 		scanf("%d", &opcao);
