@@ -1,0 +1,51 @@
+TREINANDO JAVA	
+
+Acessar o Link Do Java:
+<script src="nome do arquivo do java"></script>
+
+"use strict" -> uma maneira de bloquear alguns comandos antigos do java script.
+alert("---") -> abre uma janela de aviso do jscript.
+o alert que monstra primeiro e o que esta no jscript.
+
+Async e Defer:
+Eles Serve Para quando o script nao for carregado (se nao tiver carregado a pagina trava),
+para soluncionar o problema usa o defer e async na declaraçao do jscript, esses dois comandos fazem que nao para o carregamento da pagina,
+msm q o script nao esteja baixado.
+a diferença entre os dois e que o defer espera o script1 carregar para executar, o async nao ele executa o primeira que carregar.
+
+variaveis:
+Usamos variáveis para armazenar dados durante a execução de um script, em 
+Javascript temos os tipos numéricos (real e inteiro) texto (string) e booleano 
+(true/false) a maneira mais moderna de declaramos uma variável é colocar a 
+palavra reservada let antes do nome da variável
+
+Numericos(real, inteiros)
+texto(string).
+booleano(true/false).
+
+const:
+Constantes possuem escopo de bloco, semelhantes às variáveis declaradas usando o palavra-chave let.
+ O valor de uma constante não pode ser alterado por uma atribuição, e ela não pode ser redeclarada.
+
+NAN: not a number, normalmente é quando ocorre erro em alguma operação 
+matemática.
+Infinity: Representa maior que qualquer número.
+Undefined: significa “valor não atribuído”.
+Null: Forma um tipo a parte que significa apenas nulo.
+
+typeof: 
+usado para descobrir o dado que tem uma variavel.
+
+apostrofe "${}":
+uma extensao pra monstra o texto eo valor que vc colocou na variavel onde ela se encontra dentro "${}".
+
+Criar Variavel e adicionar algo nela:
+let nome= "pablo";
+
+monstra na tela (alert):
+alert (meu nome e `${nome}`);
+
+assim ele vai monstar os dados que vc informou na variavel.
+
+
+
